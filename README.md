@@ -1,2 +1,3 @@
 # Coding-Challenge-12
 The tool should allow users to choose between drawing lines, rectangles, or circles, select a color for drawing, draw by clicking and dragging the mouse, and clear the canvas with a button.
+In this coding challenge, you will create an Interactive Drawing Application using the HTML5 <canvas> element and JavaScript. The goal is to allow users to draw shapes (lines, rectangles, circles), apply colors, and clear the canvas. This challenge emphasizes canvas drawing, event handling, and dynamic visual updates.
