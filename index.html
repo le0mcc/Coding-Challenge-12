@@ -6,17 +6,31 @@
     <title>Coding Challenge 12</title>
 </head>
 <body>
-    <canvas id="myCanvas" width="400" height="400"></canvas>
-    <button id="selectDrawingTool" >Select a Drawing Tool</button>
+    <canvas id="myCanvas" width="700" height="400"></canvas>
     <p>Choose Color</p>
     <div>
         <input type="color" id="drawingColor" name="drawingColor" value="#e66365"/>
         <label for="drawingColor">Drawing Color</label>
     </div>
+    <br>
+    <fieldset>
+        <legend>Select a Drawing Tool:</legend>
+        <div>
+            <input type="radio" id="line" value="line" name="drawingTool" checked/>
+            <label for="line">Line</label>
+        </div>
+        <div>
+            <input type="radio" id="rectangle" value="rectangle" name="drawingTool"/>
+            <label for="rectangle">Rectangle</label>
+        </div>
+        <div>
+            <input type="radio" id="circle" value="circle" name="drawingTool"/>
+            <label for="circle">Circle</label>    
+        </div>
+    </fieldset>
+    <br>
     <div>
         <button id="clearCanvas">Clear Canvas</button>
-        <input type="range" id="opacity" min="0" max="1" value="1" step=".1">
-        <label for="opacity">Opacity</label>
     </div>
     <script src="app.js"></script>
 </body>
